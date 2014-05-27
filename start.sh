@@ -1,0 +1,1 @@
+./lib/wnf.py --serve

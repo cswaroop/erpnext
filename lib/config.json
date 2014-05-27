@@ -1,0 +1,39 @@
+{
+	"base_template": "lib/website/templates/base.html",
+	"modules": {
+		"Finder": {
+			"type": "page",
+			"link": "finder",
+			"color": "#14C7DE",
+			"label": "Finder",
+			"icon": "icon-folder-open"
+		},
+		"To Do": {
+			"type": "page",
+			"link": "todo",
+			"color": "#f1c40f",
+			"label": "To Do",
+			"icon": "icon-check"
+		},
+		"Calendar": {
+			"type": "view",
+			"link": "Calendar/Event",
+			"color": "#2980b9",
+			"label": "Calendar",
+			"icon": "icon-calendar"
+		},
+		"Messages": {
+			"type": "page",
+			"link": "messages",
+			"color": "#9b59b6",
+			"label": "Messages",
+			"icon": "icon-comments"
+		},
+		"Website": {
+			"type": "module",
+			"link": "website-home",
+			"color": "#16a085",
+			"icon": "icon-globe"
+		}
+	}
+}
